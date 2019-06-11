@@ -7,11 +7,13 @@ export default function User(props) {
     const { userData: { name = 'Anonymous', nickname = 'Anonymous', surname = 'Anonymous', age = 'Unknown', children = 'Unknown' }, rating, } = props;
 
     // const { childOne = 'Anonymous', childTwo = 'Anonymous', childThree = 'Anonymous', } = children;
-
+    
     const arr = [];
 
-    for (const [key, value] of Object.entries(children)) {
-        arr.push(key, value);
+    if (children !== 'Unknown') {
+        for (const [key, value] of Object.entries(children)) {
+            arr.push(key, value);
+        }
     }
 
     return (
@@ -21,11 +23,7 @@ export default function User(props) {
             <h3>My surname: {surname}</h3>
             <h3>My age: {age}</h3>
             <h3>My rating: {rating}</h3>
-            { arr.map(function (n) {
-                return ([
-                <h3>{n}</h3>
-                ]);
-            }) }
+            {  arr.map(   (n) => ([<h3>{n}</h3>])    )  }
         </div>
     )
 }

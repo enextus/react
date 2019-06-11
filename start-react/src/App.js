@@ -5,17 +5,6 @@ import ComponentTwo from './componenttwo.jsx'
 import User from './User'
 
 
-// const userData = {
-//   name: 'Luka',
-//   surname: 'Usatyj',
-//   age: 60,
-//   children: {
-//     childOne: 'Ivan',
-//     childTwo: 'Prokchor',
-//     childThree: 'Stephan',
-//   },
-// };
-
 const userData = {
   name: 'Luka',
   surname: 'Usatyj',
@@ -23,8 +12,15 @@ const userData = {
   children: {
     childOne: 'Ivan',
     childTwo: 'Prokchor',
+    childThree: 'Stephan',
   },
 };
+
+// const userData = {
+//   name: 'Luka',
+//   surname: 'Usatyj',
+//   age: 60,
+// };
 
 class App extends React.Component {
 
