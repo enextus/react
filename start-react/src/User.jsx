@@ -7,11 +7,11 @@ export default function User(props) {
     let childrenList;
 
     if (children !== 'Unknown') {
-        childrenList = Object.values(children).map((key, values) => ( [<h3>Child {values + 1}: {key}</h3>] ));
+        childrenList = Object.values(children).map((key, values) => ([<h3>{values + 1}. child's name: {key}</h3>]));
     }
     
     return (
-        <div id='main'>
+        <div>
             <h3>My name: {name}</h3>
             <h3>My nickname: {nickname}</h3>
             <h3>My surname: {surname}</h3>
