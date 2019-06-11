@@ -1,17 +1,5 @@
 import React from 'react'
 
-// export default function User(props) {
-//     console.log(props);
-//     return (
-//         <div>
-//             <h3>My Name is {props.userData.name}</h3>
-//             <h3>My surname is {props.userData.surname}</h3>
-//             <h3>My surname is {props.userData.age}</h3>
-//             <h3>My surname is {props.rating}</h3>
-//         </div>
-//     )
-// }
-
 export default function User(props) {
 
     console.log(props);
