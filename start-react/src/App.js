@@ -8,7 +8,12 @@ import User from './User'
 const userData = {
   name: 'Luka',
   surname: 'Usatyj',
-  age: 28,
+  age: 60,
+  children: {
+    childOne: 'Ivan',
+    childTwo: 'Prokchor',
+    childThree: 'Stephan',
+  },
 };
 
 class App extends React.Component {
