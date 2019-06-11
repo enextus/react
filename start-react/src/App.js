@@ -23,13 +23,6 @@ const userData = {
 // };
 
 class App extends React.Component {
-
-  // getUserData() {
-  //   const userData = fetch();
-  // ...
-  // ...
-  // }
-
   render() {
     return (
       <div className='App'>
