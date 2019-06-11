@@ -6,8 +6,8 @@ import User from './User'
 
 
 const userData = {
-  name: 'Luka',
-  surname: 'Usatyj',
+  name: 'Vitaly',
+  surname: 'Mir',
   age: 60,
   children: {
     childOne: 'Ivan',
