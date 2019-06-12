@@ -6,13 +6,16 @@ import User from './User'
 
 
 const userData = {
-  name: 'Vitaly',
-  surname: 'Mir',
+  name: 'Boyd',
+  surname: 'Mitchener',
   age: 60,
   children: {
-    childOne: 'Ivan',
-    childTwo: 'Prokchor',
-    childThree: 'Stephan',
+    childOne: 'Gussie Schiefelbein',
+    childTwo: 'Wilda Stemple',
+    childThree: 'Edgardo Maher',
+    childFourth: 'Claudio Mcglothin',
+    childFifth: 'Sabine Band',
+    childSixth: 'Shoshana Mcfarland',
   },
 };
 

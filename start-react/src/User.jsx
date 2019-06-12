@@ -7,7 +7,7 @@ export default function User(props) {
     let childrenList;
 
     if (children !== 'Unknown') {
-        childrenList = Object.values(children).map((n, key) => ([<h3>{key + 1}. child's name: {n}</h3>]));
+        childrenList = Object.values(children).map((value, index) => ([<h3>{index + 1}. child's name: {value}</h3>]));
     }
     
     return (
