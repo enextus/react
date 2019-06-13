@@ -10,12 +10,12 @@ const userData = {
   surname: 'Mitchener',
   age: 60,
   children: {
-    childOne: 'Gussie Schiefelbein',
-    childTwo: 'Wilda Stemple',
-    childThree: 'Edgardo Maher',
-    childFourth: 'Claudio Mcglothin',
-    childFifth: 'Sabine Band',
-    childSixth: 'Shoshana Mcfarland',
+    childOne: { name: 'Gussie', surname: 'Schiefelbein', age: '10', },
+    childTwo:  { name: 'Wilda', surname: 'Stemple', age: '7', },
+    childThree:  { name: 'Edgardo', surname: 'Maher', age: '12', },
+    childFourth:  { name: 'Claudio', surname: 'Mcglothin', age: '16', },
+    childFifth:  { name: 'Sabine', surname: 'Band', age: '19', },
+    childSixth:  { name: 'Shoshana', surname: 'Mcfarland', age: '23', },
   },
 };
 
