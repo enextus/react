@@ -8,7 +8,8 @@ export default function User(props) {
 
     if (children !== 'Unknown') {
         
-        childrenList = Object.values(children).map( (obj) => ( Object.entries(obj).map( ([key, value]) => ([<h3>{key}: {value};</h3>]) ) ) );
+        // childrenList = Object.values(children).map( (obj) => ( Object.entries(obj).map( ([key, value]) => ([<h3>{key}: {value};</h3>]) ) ) );
+        childrenList = Object.entries(children).map( ([key, values]) => ( [key, Object.entries(values).map( ([key, values]) => ([<h3>{key}: {values};</h3>]) )] ) );
     }
     
     return (
