@@ -2,8 +2,6 @@ import React from 'react';
 
 class Columns extends React.Component {
 
-    
-
     render() {
       
       console.log('items', this.props);
@@ -18,3 +16,4 @@ class Columns extends React.Component {
   }
   
   export default Columns;
+  

@@ -1,14 +1,14 @@
 import React from 'react';
 import './App.css';
-import ComponentOne from './componentone.jsx'
-import ComponentTwo from './componenttwo.jsx'
+import ComponentOne from './Componentone.jsx'
+import Table from './Table'
 import User from './User'
-
 
 const userData = {
   name: 'Boyd',
   surname: 'Mitchener',
   age: 60,
+  еyeColor: 'Brown',
   children: {
     childOne: { name: 'Gussie', surname: 'Schiefelbein', age: '10', },
     childTwo:  { name: 'Wilda', surname: 'Stemple', age: '7', },
@@ -30,7 +30,7 @@ class App extends React.Component {
     return (
       <div className='App'>
         <ComponentOne />
-        <ComponentTwo userData={userData} rating={userData.age * 0.48} />
+        <Table userData={userData} rating={userData.age * 0.48} />
         <User userData={userData} rating={userData.age * 0.48} />
       </div>
     )

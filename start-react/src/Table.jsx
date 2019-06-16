@@ -2,7 +2,7 @@ import React from 'react';
 import Columns from './Columns'
 import './Table.css'; 
 
-  class ComponentTwo extends React.Component {
+  class Table extends React.Component {
 
     render() {
 
@@ -16,8 +16,8 @@ import './Table.css';
           </tr>
         </table>
         
-      )
+      );
     }
   }
 
-export default ComponentTwo;
+export default Table;
