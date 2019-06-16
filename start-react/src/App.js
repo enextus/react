@@ -30,7 +30,7 @@ class App extends React.Component {
     return (
       <div className='App'>
         <ComponentOne />
-        <ComponentTwo />
+        <ComponentTwo userData={userData} rating={userData.age * 0.48} />
         <User userData={userData} rating={userData.age * 0.48} />
       </div>
     )

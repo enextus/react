@@ -1,4 +1,5 @@
 import React from 'react'
+import './User.css';
 
 export default function User(props) {
 
@@ -12,7 +13,7 @@ export default function User(props) {
     }
     
     return (
-        <div>
+        <div class='user'>
             <h3>My name: {name};</h3>
             <h3>My nickname: {nickname};</h3>
             <h3>My surname: {surname};</h3>
