@@ -27,7 +27,7 @@ const jokesData = [
         id: 6,
         question: "Did you hear about the claustrophobic astronaut?",
         punchLine: "He just needed a little space."
-    }
+    },
 ]
 
 export default jokesData
