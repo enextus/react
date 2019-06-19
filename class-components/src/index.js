@@ -30,6 +30,7 @@ class Greeting extends Component {
         
         const date = new Date()
         const hours = date.getHours()
+        const ttt = date.toUTCString()
         let timeOfDay
         
         if (hours < 12) {
@@ -41,7 +42,7 @@ class Greeting extends Component {
         }
 
         return (
-            <h1>Good {timeOfDay} to you, sir or madam!</h1>
+            <h1>Good {timeOfDay} to you, sir or madam! ({ttt}, {hours} o'clock)</h1>
         )
     }
 }
