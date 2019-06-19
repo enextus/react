@@ -19,6 +19,8 @@ class Header extends Component {
         return (
             <header>
                 <p>Welcome, {this.props.username}!</p>
+                {/* {this.props.name = "NoName"}  */}
+                {/* если попытаться, в компоненте, основанном на классе, использовать конструкцию наподобие this.props.name = "NoName" — мы столкнёмся с сообщением об ошибке */}
             </header>
         )    
     }
